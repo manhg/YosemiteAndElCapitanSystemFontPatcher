@@ -1,3 +1,5 @@
+brew install fontforge --with-python
+
 patch-system-font() {
   BASE="$1"
   REPLACEMENT="$2"
